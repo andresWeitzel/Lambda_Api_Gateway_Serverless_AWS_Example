@@ -1,5 +1,5 @@
 	
-service: lambda-api-gateway-tests
+service: lambda-api-gateway-example
  
 provider:
   name: aws
@@ -14,13 +14,6 @@ functions:
     memorySize: 128
     events:
       - httpApi:
-          path: /test
           method: GET
+          path: /test
         
-
-resources:
- Resources:
-  ApiGatewayRestApi:
-    Type: AWS::ApiGateway::RestApi
-    Properties:
-      Name: apiGatewayRestApi        
