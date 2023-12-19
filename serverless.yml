@@ -1,0 +1,20 @@
+	
+service: lambda-api-gateway
+ 
+frameworkVersion: ">=1.1.0 <2.0.0"
+ 
+provider:
+  name: aws
+  region: us-east-2
+  runtime: nodejs20.x
+  memorySize: 512 # optional, in MB, default is 1024
+  timeout: 10 # optional, in seconds, default is 6
+ 
+functions:
+  test:
+    handler: src/index.handler
+    memorySize: 128
+    events:
+      - httpApi:
+          method: GET
+          path: /test
