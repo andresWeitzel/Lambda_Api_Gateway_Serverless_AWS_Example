@@ -15,6 +15,6 @@ functions:
     memorySize: 128
     events:
       - httpApi:
-          method: GET
           path: /test
+          method: GET
         
