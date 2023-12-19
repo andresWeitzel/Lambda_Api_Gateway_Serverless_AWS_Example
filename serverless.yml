@@ -11,8 +11,10 @@ provider:
 functions:
   test:
     handler: src/index.handler
+    name: lambdaServerlessApiGatewayTest
     memorySize: 128
     events:
       - httpApi:
           method: GET
           path: /test
+        
