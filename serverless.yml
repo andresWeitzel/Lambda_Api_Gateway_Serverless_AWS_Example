@@ -1,8 +1,6 @@
 	
 service: lambda-api-gateway
  
-frameworkVersion: ">=1.1.0 <2.0.0"
- 
 provider:
   name: aws
   region: us-east-2
