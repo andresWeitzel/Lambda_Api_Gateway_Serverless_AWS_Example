@@ -2,7 +2,7 @@
 // handler.js
 'use strict';
  
-module.exports.hello = function (event, context, callback) {
+module.exports.handler = function (event, context, callback) {
   console.log(event); // Contains incoming request data (e.g., query params, headers and more)
  
   const response = {
