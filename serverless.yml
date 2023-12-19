@@ -1,5 +1,5 @@
 	
-service: lambda-api-gateway-test
+service: lambda-api-gateway-tests
  
 provider:
   name: aws
