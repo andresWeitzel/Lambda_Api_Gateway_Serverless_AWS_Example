@@ -1,3 +1,5 @@
+![Index app](https://github.com/andresWeitzel/Lambda_Api_Gateway_Serverless_AWS_Example/blob/master/doc/assets/img/img.png)
+
 # Lambda_Api_Gateway_Serverless_AWS_Example
 Creating and deploying a lambda function with serverless, Api gateway and nodejs in AWS
 
