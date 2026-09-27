@@ -27,7 +27,7 @@
 
 <div align="center">
 
-# Lambda_Api_Gateway_Serverless_AWS_Example ![(status-completed)](./doc/assets/icons/badges/status-completed.svg)
+# Lambda con Serverless y API Gateway ![(status-completed)](./doc/assets/icons/badges/status-completed.svg)
 
 </div>
 
